@@ -1,0 +1,12 @@
+@import 'poopFonts.scss';
+
+@mixin hMain ($fontSize, $fontWeight, $fontColor) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $fontColor;
+}
+
+h1, h2 {
+    @include hMain(2em, bold, blue);
+    padding: 8px 20px;
+}
