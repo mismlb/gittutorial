@@ -1,0 +1,23 @@
+{
+  "name": "HTML5 Tools Tutorial",
+  "homepage": "https://github.com/mismlb/gittutorial",
+  "authors": [
+    "mismlb"
+  ],
+  "description": "This is the description",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {}
+}
